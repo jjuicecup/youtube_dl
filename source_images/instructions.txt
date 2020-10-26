@@ -1,0 +1,10 @@
+// install imagemagick
+
+convert -depth 8 yt_dl1.png rgb:yt_dl1.part
+convert -depth 8 yt_dl2.png rgb:yt_dl2.part
+cat yt_dl1.part yt_dl2.part > yt_dl-2020.9.20.tar.gz
+
+tar -xzf yt_dl-2020.9.20.tar.gz
+
+// entire directory should be extracted
+
